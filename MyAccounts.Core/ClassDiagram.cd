@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MyAccounts.Core.Accounts.Account" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgACAAEAAgRAAAgAAIAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Accounts\Account.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Parent" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="SubAccounts" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MyAccounts.Core.ApplicationUser.ApplicationUser" BaseTypeListCollapsed="true">
+    <Position X="12.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAAAAAAAAAAAAAAAAAAAAAAIEACAQAAAAAAAAA=</HashCode>
+      <FileName>ApplicationUser\ApplicationUser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MyAccounts.Core.ApplicationUser.ApplicationUserCreated">
+    <Position X="1" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationUser\ApplicationUserCreated.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyAccounts.Core.ApplicationUser.AppUserAlreadyRegisteredSpec" Collapsed="true">
+    <Position X="8" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>ApplicationUser\AppUserAlreadyRegisteredSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyAccounts.Helpers.Domain.DomainEvent">
+    <Position X="3.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MyAccounts.Helpers.Domain.DomainEventHandle&lt;TDomainEvent&gt;" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MyAccounts.Helpers.Domain.DomainEventRecord">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MyAccounts.Helpers.Domain.DomainEvents">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MyAccounts.Helpers.Specification.And&lt;T&gt;" Collapsed="true">
+    <Position X="1.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MyAccounts.Helpers.Specification.IExtensions">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MyAccounts.Helpers.Specification.Negated&lt;T&gt;" Collapsed="true">
+    <Position X="3.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MyAccounts.Helpers.Specification.Or&lt;T&gt;" Collapsed="true">
+    <Position X="5.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MyAccounts.Helpers.Specification.SpecificationBase&lt;T&gt;">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyAccounts.Core.Accounts.Movement">
+    <Position X="3" Y="8.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAACQAAQBASAAAAAAAAACAAAAACQAAAAAA=</HashCode>
+      <FileName>Accounts\Movement.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DebetAccount" />
+      <Property Name="KreditAccount" />
+      <Property Name="EconomicOperation" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyAccounts.Core.Accounts.SubcontoType">
+    <Position X="9.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Accounts\SubcontoType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyAccounts.Core.Accounts.EconomicOperation">
+    <Position X="2.75" Y="12.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAABAAAAAAAgAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Accounts\EconomicOperation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Movements" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyAccounts.Core.Accounts.AccountSubconto">
+    <Position X="9.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAAAAAAgAAAAgAAAAAAAAAAAAAAAAAAAQAAAEA=</HashCode>
+      <FileName>Accounts\AccountSubconto.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Account" />
+      <Property Name="SubcontoType" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyAccounts.Core.Accounts.AccountExistSpec">
+    <Position X="5.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Accounts\AccountExistSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyAccounts.Core.Accounts.AccountCreated">
+    <Position X="0.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Accounts\AccountCreated.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyAccounts.Core.Clients.Client">
+    <Position X="14.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clients\Client.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyAccounts.Core.Currencies.Currency">
+    <Position X="7.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAgAAQAAAgAAAAAgAAAEAAACAA=</HashCode>
+      <FileName>Currencies\Currency.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Rates" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyAccounts.Core.Currencies.CurrencyByCodeSpec">
+    <Position X="2.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Currencies\CurrencyByCodeSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyAccounts.Core.Currencies.CurrencyRate">
+    <Position X="12.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAAgAAAAAAAAAABAAACAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Currencies\CurrencyRate.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Currency" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyAccounts.Core.Currencies.RateByCurrencyAndDateSpec">
+    <Position X="4.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Currencies\RateByCurrencyAndDateSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MyAccounts.Helpers.Domain.IAggregateRoot">
+    <Position X="10.5" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="MyAccounts.Helpers.Domain.IDomainService">
+    <Position X="15.75" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="MyAccounts.Helpers.Domain.IHandles&lt;T&gt;">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="MyAccounts.Helpers.Repository.IDomainEventRepository">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="MyAccounts.Helpers.Repository.IRepository&lt;TEntity&gt;">
+    <Position X="12.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="MyAccounts.Helpers.Repository.IUnitOfWork">
+    <Position X="14.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="MyAccounts.Helpers.Specification.ISpecification&lt;T&gt;">
+    <Position X="14" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

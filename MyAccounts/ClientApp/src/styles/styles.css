@@ -1,0 +1,48 @@
+.top-menu-root {
+    flex-grow: 1
+}
+
+.top-menu-button {
+    margin-left: 16;
+}
+
+.top-menu-title {
+    flex-grow: 1;
+}
+
+.login-card {
+    width: 400px;
+    height:300px;
+}
+.sign-up-card {
+    width: 400px;
+    height: 400px;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.login-card-title {
+    font-size: 14;
+}
+
+.login-card-action-bar {
+    position: fixed;
+    flex: 1 ;
+    bottom:0;
+    width: 96%;
+    align-items: flex-end;
+}
+
+.login-card-login {
+    width: 350px;
+}
+
+.login-card-password {
+    width: 350px; 
+}

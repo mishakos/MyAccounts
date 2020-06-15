@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="MyAccounts.Application.Configs.AutofacModule" Collapsed="true">
+    <Position X="15" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configs\AutoFacModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyAccounts.Application.Configs.IServiceCollectionExtension" Collapsed="true">
+    <Position X="13.25" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configs\IServiceCollectionExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyAccounts.Application.Login.LoginViewModel" Collapsed="true">
+    <Position X="15" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAAAAAAA=</HashCode>
+      <FileName>Login\LoginViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyAccounts.Application.Login.RegistrateViewModel">
+    <Position X="11.5" Y="4" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAACAQAAAAAAAAA=</HashCode>
+      <FileName>Login\RegistrateViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyAccounts.Application.Login.TokenViewModel" Collapsed="true">
+    <Position X="15" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Login\TokenViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyAccounts.Application.Login.UserService" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="4" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEACAAAAAAAAAACAAAAEAAAAAAAQAAgAAAA=</HashCode>
+      <FileName>Login\UserService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MyAccounts.Core.Accounts.Account" BaseTypeListCollapsed="true">
+    <Position X="9" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MyAccounts.Core.ApplicationUser.ApplicationUser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="1" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MyAccounts.Core.ApplicationUser.ApplicationUserCreated" Collapsed="true">
+    <Position X="11.5" Y="2" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MyAccounts.Core.ApplicationUser.AppUserAlreadyRegisteredSpec" Collapsed="true">
+    <Position X="3.5" Y="2.25" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MyAccounts.Context.MyAccountsDbContext" Collapsed="true">
+    <Position X="16.75" Y="3" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MyAccounts.Repositories.AccountRepository" Collapsed="true">
+    <Position X="1" Y="5.25" Width="1.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyAccounts.Repositories.ApplicationUserRepository" Collapsed="true">
+    <Position X="3.5" Y="5.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MyAccounts.Repositories.DbUnitOfWork" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="2" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MyAccounts.Repositories.Repository&lt;TEntity&gt;" Collapsed="true">
+    <Position X="2.5" Y="4" Width="1.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyAccounts.Security.AuthOptions" Collapsed="true">
+    <Position X="13.25" Y="1" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MyAccounts.Security.SecurityManager" Collapsed="true">
+    <Position X="13.25" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MyAccounts.Helpers.Specification.SpecificationBase&lt;T&gt;" Collapsed="true">
+    <Position X="5" Y="1" Width="1.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyAccounts.Helpers.Specification.Or&lt;T&gt;" Collapsed="true">
+    <Position X="6.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MyAccounts.Helpers.Specification.Negated&lt;T&gt;" Collapsed="true">
+    <Position X="9" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MyAccounts.Helpers.Specification.IExtensions" Collapsed="true">
+    <Position X="11.5" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MyAccounts.Helpers.Specification.And&lt;T&gt;" Collapsed="true">
+    <Position X="1.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="MyAccounts.Application.Login.IUserService">
+    <Position X="16.75" Y="6.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAgAAAA=</HashCode>
+      <FileName>Login\IUserService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MyAccounts.Repositories.IAccountRepository">
+    <Position X="11.5" Y="5.75" Width="3" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="MyAccounts.Helpers.Specification.ISpecification&lt;T&gt;">
+    <Position X="11.5" Y="7.25" Width="3.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

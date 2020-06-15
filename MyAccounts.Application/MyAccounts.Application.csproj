@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.4" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Json.Net" Version="1.0.18" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyAccounts.Context\MyAccounts.Context.csproj" />
+    <ProjectReference Include="..\MyAccounts.Core\MyAccounts.Core.csproj" />
+    <ProjectReference Include="..\MyAccounts.Helpers\MyAccounts.Helpers.csproj" />
+    <ProjectReference Include="..\MyAccounts.Migrations\MyAccounts.Migrations.csproj" />
+    <ProjectReference Include="..\MyAccounts.Repositories\MyAccounts.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
