@@ -66,6 +66,23 @@ namespace MyAccounts.Context
             modelBuilder.Entity<BankAccount>().HasOne(p => p.Owner).WithMany().HasForeignKey(p => p.OwnerId).OnDelete(DeleteBehavior.Restrict);
             modelBuilder.Entity<BankAccount>().HasOne(p => p.Bank).WithMany().HasForeignKey(p => p.BankId).OnDelete(DeleteBehavior.Restrict);
 
+            modelBuilder.Entity<Currency>().HasData(new Currency
+            {
+                Id = 1,
+                Code = "980",
+                Name = "US Dollar",
+                ShortCode = "USD",
+                Symbol = "$"
+            },
+            new Currency
+            {
+                Id = 2,
+                Code = "978",
+                Name = "Euro",
+                ShortCode = "EUR",
+                Symbol = "E"
+            });
+
         }
     }
 }
